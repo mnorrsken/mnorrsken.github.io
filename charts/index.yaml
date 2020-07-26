@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  nfs-client-provisioner:
+  - apiVersion: v1
+    appVersion: 3.1.0
+    created: "2020-07-26T21:26:53.327117926+02:00"
+    description: nfs-client is an automatic provisioner that used your *already configured*
+      NFS server, automatically creating Persistent Volumes.
+    digest: 703d12e62bdecdb26846cced177f454a856c03d9a29f39fe9a4d622038777bc1
+    home: https://github.com/mnorrsken/nfs-client-provisioner-chart
+    keywords:
+    - nfs
+    - storage
+    maintainers:
+    - email: martin.norrsken@gmail.com
+      name: mnorrsken
+    name: nfs-client-provisioner
+    sources:
+    - https://github.com/mnorrsken/nfs-client-provisioner-chart
+    urls:
+    - nfs-client-provisioner-1.2.8.tgz
+    version: 1.2.8
+generated: "2020-07-26T21:26:53.326195725+02:00"
