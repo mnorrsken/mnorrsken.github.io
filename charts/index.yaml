@@ -1,12 +1,29 @@
 apiVersion: v1
 entries:
+  local-path-provisioner:
+  - apiVersion: v1
+    appVersion: v0.0.14
+    created: "2020-07-30T23:51:19.933123789Z"
+    description: Use HostPath for persistent local storage with Kubernetes
+    digest: ad0e66786c8235f7a2d2fc631baeec196b02e4735933c09ba62c427534601e05
+    home: https://github.com/rancher/local-path-provisioner
+    keywords:
+    - storage
+    - hostpath
+    kubeVersion: '>=1.12.0-r0'
+    name: local-path-provisioner
+    sources:
+    - https://github.com/rancher/local-path-provisioner.git
+    urls:
+    - local-path-provisioner-0.0.14.tgz
+    version: 0.0.14
   nfs-client-provisioner:
   - apiVersion: v1
     appVersion: 3.1.0
-    created: "2020-07-30T22:32:45.805435749Z"
+    created: "2020-07-30T23:51:19.935360138Z"
     description: nfs-client is an automatic provisioner that used your *already configured*
       NFS server, automatically creating Persistent Volumes.
-    digest: 88c354369cbb0e4f810a3139673ec4ed10b6414503f6089824f8937735cba385
+    digest: d2febdd1db1085fbc648fb7705e13f75dc211aed1aaf44374baba6cf0fe3c554
     home: https://github.com/mnorrsken/nfs-client-provisioner-chart
     keywords:
     - nfs
@@ -20,4 +37,4 @@ entries:
     urls:
     - nfs-client-provisioner-1.2.8.tgz
     version: 1.2.8
-generated: "2020-07-30T22:32:45.804875659Z"
+generated: "2020-07-30T23:51:19.92870289Z"
